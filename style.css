@@ -1,0 +1,106 @@
+.completed {
+    text-decoration: line-through;
+}
+h1{
+    padding-top: 20px; 
+    background-color:rgb(98, 88, 82);
+    padding-bottom: 20px;
+	border-radius: 25px;
+    text-align: center;
+
+}
+body{
+    color: rgb(242, 240, 235);
+    font-family: system-ui;
+    font-style: normal;
+  }
+ul {
+    list-style-type:none;  
+    margin-left: 38%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+   
+   }
+.del{
+    position: relative
+}
+.Add{
+    background-color: rgb(98, 88, 82);
+    border:none;
+    font-weight:700;
+    color: azure;
+    width:50px;
+    height:45px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+input{
+    list-style-type: none; 
+    margin-bottom: 20px;
+    margin-left: 25%;
+    width:25%;
+    font-size: 30px;
+    text-align:center;
+    border-radius: 25px;
+}
+select{
+    background-color: rgb(98, 88, 82);
+    border:none;
+    font-weight:700;
+    color: azure;
+    width:150px;
+    height:45px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+ul{
+    background-color:rgb(98, 88, 82);
+	border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5px; 
+    cursor: pointer; 
+}
+.deleteButton{
+    background-color: azure;
+    border:none;
+    font-weight:700;
+    color:  rgb(98, 88, 82);
+    border-radius: 25px;
+
+
+
+}
+.completeButton{
+    background-color: azure;
+    border:none;
+    font-weight:700;
+    color:  rgb(98, 88, 82);
+    border-radius: 25px;
+
+}
+.restoreButton{
+    background-color: azure;
+    border:none;
+    font-weight:700;
+    color:  rgb(98, 88, 82);
+    border-radius: 25px;
+    
+
+}
+
+
+.deleted {
+    background-color: rgb(99, 105, 183); 
+    padding-bottom: 15px;
+	border-radius: 25px;
+}
+
+li:hover {
+    background-color: rgb(157, 130, 114); 
+    padding-bottom: 15px;
+	border-radius: 25px;
+}

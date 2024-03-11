@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список дел</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body background="png/cat.jpg">
+    <h1>Список дел</h1>
+    <div class="del">
+        <input type="text" id="newItem" placeholder="Новое дело...">
+        <button class="Add" onclick="addItem()">+</button>
+        <select id="filter" onchange="filterItems()">
+        <option value="all">Все</option>
+        <option value="active">Активные</option>
+        <option value="completed">Завершенные</option>
+        <option value="deleted">Удаленные</option>
+    </select>
+    <ul id="todoList"><p>Тут будут отображаться ваши дела ฅ•ω•ฅ</p></ul>
+    </div>
+    
+   
+    <script src="ind.js"></script>
+</body>
+</html>
